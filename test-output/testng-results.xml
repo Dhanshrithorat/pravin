@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browesr is launch]]>
+    </line>
+    <line>
+      <![CDATA[sending user name]]>
+    </line>
+    <line>
+      <![CDATA[sending user password]]>
+    </line>
+    <line>
+      <![CDATA[clickonloginbuttom ]]>
+    </line>
+    <line>
+      <![CDATA[sending pin ]]>
+    </line>
+    <line>
+      <![CDATA[click on continiue button ]]>
+    </line>
+    <line>
+      <![CDATA[validating user name  ]]>
+    </line>
+    <line>
+      <![CDATA[actualusername and expected are matching tc is pass]]>
+    </line>
+    <line>
+      <![CDATA[login out.. ]]>
+    </line>
+    <line>
+      <![CDATA[close browser ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-11T14:53:20 IST" name="Default suite" finished-at="2022-07-11T14:53:46 IST" duration-ms="26134">
+    <groups>
+    </groups>
+    <test started-at="2022-07-11T14:53:20 IST" name="Default test" finished-at="2022-07-11T14:53:46 IST" duration-ms="26134">
+      <class name="kitePOM_using_testNg.Validate_Kite_appUserName">
+        <test-method is-config="true" signature="logintobrowser()[pri:0, instance:kitePOM_using_testNg.Validate_Kite_appUserName@52719fb6]" started-at="2022-07-11T14:53:20 IST" name="logintobrowser" finished-at="2022-07-11T14:53:39 IST" duration-ms="19170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browesr is launch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintobrowser -->
+        <test-method is-config="true" signature="loginktokiteapp()[pri:0, instance:kitePOM_using_testNg.Validate_Kite_appUserName@52719fb6]" started-at="2022-07-11T14:53:39 IST" name="loginktokiteapp" finished-at="2022-07-11T14:53:40 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sending user name]]>
+            </line>
+            <line>
+              <![CDATA[sending user password]]>
+            </line>
+            <line>
+              <![CDATA[clickonloginbuttom ]]>
+            </line>
+            <line>
+              <![CDATA[sending pin ]]>
+            </line>
+            <line>
+              <![CDATA[click on continiue button ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginktokiteapp -->
+        <test-method signature="validateusername()[pri:0, instance:kitePOM_using_testNg.Validate_Kite_appUserName@52719fb6]" started-at="2022-07-11T14:53:40 IST" name="validateusername" finished-at="2022-07-11T14:53:41 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validating user name  ]]>
+            </line>
+            <line>
+              <![CDATA[actualusername and expected are matching tc is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateusername -->
+        <test-method is-config="true" signature="logouttokiteapp()[pri:0, instance:kitePOM_using_testNg.Validate_Kite_appUserName@52719fb6]" started-at="2022-07-11T14:53:41 IST" name="logouttokiteapp" finished-at="2022-07-11T14:53:44 IST" duration-ms="2318" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login out.. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttokiteapp -->
+        <test-method is-config="true" signature="closebrower()[pri:0, instance:kitePOM_using_testNg.Validate_Kite_appUserName@52719fb6]" started-at="2022-07-11T14:53:44 IST" name="closebrower" finished-at="2022-07-11T14:53:46 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrower -->
+      </class> <!-- kitePOM_using_testNg.Validate_Kite_appUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
